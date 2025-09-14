@@ -1,0 +1,74 @@
+[
+  {
+    "url": "http://httpbin.org/status/200",
+    "status_code": 200,
+    "response_time_ms": 232.39438899997822,
+    "content_length": 0,
+    "word_count": 0,
+    "timestamp": "2025-09-14T03:18:08.877Z",
+    "error": null
+  },
+  {
+    "url": "http://httpbin.org/delay/2",
+    "status_code": 200,
+    "response_time_ms": 5960.150184000042,
+    "content_length": 328,
+    "word_count": null,
+    "timestamp": "2025-09-14T03:18:09.109Z",
+    "error": null
+  },
+  {
+    "url": "http://httpbin.org/status/404",
+    "status_code": 404,
+    "response_time_ms": 2415.6034559999853,
+    "content_length": 0,
+    "word_count": null,
+    "timestamp": "2025-09-14T03:18:15.070Z",
+    "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+    "url": "http://httpbin.org/json",
+    "status_code": 200,
+    "response_time_ms": 141.6647629999943,
+    "content_length": 429,
+    "word_count": null,
+    "timestamp": "2025-09-14T03:18:17.485Z",
+    "error": null
+  },
+  {
+    "url": "http://httpbin.org/html",
+    "status_code": 200,
+    "response_time_ms": 1149.558842000033,
+    "content_length": 3741,
+    "word_count": 638,
+    "timestamp": "2025-09-14T03:18:17.627Z",
+    "error": null
+  },
+  {
+    "url": "https://www.example.com",
+    "status_code": 200,
+    "response_time_ms": 68.80882199999405,
+    "content_length": 1256,
+    "word_count": 158,
+    "timestamp": "2025-09-14T03:18:18.776Z",
+    "error": null
+  },
+  {
+    "url": "http://httpbin.org/status/500",
+    "status_code": 500,
+    "response_time_ms": 489.13742700000284,
+    "content_length": 0,
+    "word_count": null,
+    "timestamp": "2025-09-14T03:18:18.845Z",
+    "error": "HTTP Error 500: INTERNAL SERVER ERROR"
+  },
+  {
+    "url": "http://invalid.url.that.does.not.exist.com",
+    "status_code": null,
+    "response_time_ms": 5.72438400001829,
+    "content_length": 0,
+    "word_count": null,
+    "timestamp": "2025-09-14T03:18:19.335Z",
+    "error": "URL Error: [Errno -2] Name or service not known"
+  }
+]
