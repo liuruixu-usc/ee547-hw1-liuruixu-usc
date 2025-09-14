@@ -1,3 +1,3 @@
-Liurui Xu/n
+Liurui Xu
 
 liuruixu@usc.edu
