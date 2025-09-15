@@ -11,7 +11,7 @@ from urllib.error import HTTPError, URLError
 WORD_PATTERN = re.compile(r"[0-9A-Za-z]+")
 
 def utc_now_iso():
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z"
+    return datetime.now(timezone.utc).isoformat() + "Z"
 
 def is_text_response(headers: dict) -> bool:
     ctype = headers.get("Content-Type") or headers.get("content-type") or ""
@@ -35,7 +35,7 @@ def fetch_one(url: str, timeout_sec: int = 10):
     err_msg = None
 
     try:
-        req = request.Request(url, headers={"User-Agent": "EE547-HTTP-Fetcher/1.0"})
+        req = request.Request(url)
         with request.urlopen(req, timeout=timeout_sec) as resp:
             status_code = resp.getcode()
             body = resp.read()

@@ -2,13 +2,13 @@
   "total_urls": 8,
   "successful_requests": 5,
   "failed_requests": 3,
-  "average_response_time_ms": 1307.880283375006,
-  "total_bytes_downloaded": 5754,
+  "average_response_time_ms": 2303.6326798750156,
+  "total_bytes_downloaded": 5750,
   "status_code_distribution": {
     "200": 5,
     "404": 1,
     "500": 1
   },
-  "processing_start": "2025-09-14T03:18:08.877Z",
-  "processing_end": "2025-09-14T03:18:19.340Z"
+  "processing_start": "2025-09-15T20:33:12.039059+00:00Z",
+  "processing_end": "2025-09-15T20:33:30.469087+00:00Z"
 }
