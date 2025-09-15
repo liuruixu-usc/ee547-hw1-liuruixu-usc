@@ -1,3 +1,0 @@
-[2025-09-15T20:33:19.422699+00:00Z] [http://httpbin.org/status/404]: HTTP Error 404: NOT FOUND
-[2025-09-15T20:33:30.463253+00:00Z] [http://httpbin.org/status/500]: HTTP Error 500: INTERNAL SERVER ERROR
-[2025-09-15T20:33:30.469074+00:00Z] [http://invalid.url.that.does.not.exist.com]: URL Error: [Errno -2] Name or service not known
