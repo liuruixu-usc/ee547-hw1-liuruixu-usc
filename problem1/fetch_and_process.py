@@ -11,7 +11,7 @@ from urllib.error import HTTPError, URLError
 WORD_PATTERN = re.compile(r"[0-9A-Za-z]+")
 
 def utc_now_iso():
-    return datetime.now(timezone.utc).isoformat() + "Z"
+    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
 def is_text_response(headers: dict) -> bool:
     ctype = headers.get("Content-Type") or headers.get("content-type") or ""
